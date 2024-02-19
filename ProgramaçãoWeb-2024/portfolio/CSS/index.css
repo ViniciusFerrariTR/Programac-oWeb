@@ -1,0 +1,15 @@
+.botao-nome{
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 60px;
+}
+.barra-botoes{
+    background-color: #000;
+    display: flex;
+}
+.botoes-navegacao{
+    float: right;
+}
