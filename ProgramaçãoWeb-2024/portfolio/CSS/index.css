@@ -110,6 +110,7 @@ img {
 .nome_cabecalho {
     height: 40px;
     margin-left: 20px;
+    margin-right: 20px;
     font-size: 22px;
     display: flex;
     width: 300px;
@@ -128,6 +129,7 @@ img {
 
 .logo_central {
     height: 100px;
+    margin-left: 40px;
 }
 
 .icone {
@@ -154,9 +156,18 @@ img {
     height: 800px;
     background-color: #000;
     display: flex;
+    
+}
+
+.caixa_imagem_inicio{
+    width: 1000px;
+    display: flex;
+
+    justify-content: center;
 }
 
 .imagem_caixa_escrita_inicio {
+    padding-top: 100px;
     height: 500px;
     width: 500px;
 }
@@ -409,15 +420,15 @@ img {
 }
 
 .miniaturas img {
+    padding: 20px;
     width: 150px;
     height: auto;
     cursor: pointer;
     margin-right: 30px;
     border: 2px solid #ddd;
-    border-radius: 5px;
+    border-radius: 20px;
     transition: transform 0.2s ease-in-out;
 }
-
 .miniaturas img:last-child {
     margin-right: 0;
 }
